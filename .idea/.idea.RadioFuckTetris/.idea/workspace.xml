@@ -8,14 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e05e2ede-da89-4d34-8f03-0bd8188e8186" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App.xaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App.xaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MainWindow.xaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MainWindow.xaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RadioFuckTetris.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RadioFuckTetris.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RadioFuckTetris/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RadioFuckTetris/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameGrid.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameGrid.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +72,8 @@
       <option name="presentableId" value="Default" />
       <updated>1683740973883</updated>
       <workItem from="1683740974920" duration="332000" />
+      <workItem from="1683741767225" duration="474000" />
+      <workItem from="1683872878476" duration="2020000" />
     </task>
     <servers />
   </component>
