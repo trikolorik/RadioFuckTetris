@@ -2,33 +2,51 @@
 
 public class GameGrid
 {
-    public int Rows;
-    public int Columns;
-    
     private readonly int[,] _grid;
+    public int Rows { get; }
+    public int Columns { get; }
 
-    public int this[int rows, int columns]
+    public int this[int r, int c]
     {
-        get => _grid[rows, columns];
-        set => _grid[rows, columns] = value;
+        get => _grid[r, c];
+        set => _grid[r, c] = value;
     }
 
-    public GameGrid(int r, int c)
+    public GameGrid(int rows, int columns)
     {
-        Rows = r;
-        Columns = c;
-        _grid = new int[r, c];
+        Rows = rows;
+        Columns = columns;
+        _grid = new int[rows, columns];
     }
 
-    public bool IsInside(int r, int c) => r >= 0 && r < Rows && c >= 0 && c < Columns;
+    private bool IsInside(int r, int c)
+    {
+        return r >= 0 && r < Rows && c >= 0 && c < Columns;
+    }
 
-    public bool IsEmpty(int r, int c) => IsInside(r, c) && _grid[r, c] == 0;
+    public bool IsEmpty(int r, int c)
+    {
+        return IsInside(r, c) && _grid[r, c] == 0;
+    }
 
-    public bool IsRowFull(int r)
+    private bool IsRowFull(int r)
     {
         for (var c = 0; c < Columns; c++)
         {
             if (_grid[r, c] == 0)
+            {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    public bool IsRowEmpty(int r)
+    {
+        for (var c = 0; c < Columns; c++)
+        {
+            if (_grid[r, c] != 0)
             {
                 return false;
             }
@@ -51,26 +69,26 @@ public class GameGrid
         {
             _grid[r + numRows, c] = _grid[r, c];
             _grid[r, c] = 0;
-        } 
+        }
     }
 
     public int ClearFullRows()
     {
         var cleared = 0;
 
-        for (var r = Rows - 1; r >= 0; r--)
+        for (var r = Rows-1; r >= 0; r--)
         {
             if (IsRowFull(r))
             {
                 ClearRow(r);
                 cleared++;
             }
-            else 
+            else if (cleared > 0)
             {
                 MoveRowDown(r, cleared);
             }
         }
-        
+
         return cleared;
     }
 }
