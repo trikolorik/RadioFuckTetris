@@ -9,7 +9,17 @@
   <component name="ChangeListManager">
     <list default="true" id="e05e2ede-da89-4d34-8f03-0bd8188e8186" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RadioFuckTetris/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RadioFuckTetris/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameGrid.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameGrid.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Background.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Block.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Block/Block.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IBlock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Block/IBlock.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JBlock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Block/JBlock.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LBlock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Block/LBlock.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OBlock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Block/OBlock.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Position.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Block/Position.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SBlock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Block/SBlock.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TBlock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Block/TBlock.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZBlock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Block/ZBlock.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +83,8 @@
       <updated>1683740973883</updated>
       <workItem from="1683740974920" duration="332000" />
       <workItem from="1683741767225" duration="474000" />
-      <workItem from="1683872878476" duration="2020000" />
+      <workItem from="1683872878476" duration="2095000" />
+      <workItem from="1685453531087" duration="683000" />
     </task>
     <servers />
   </component>
